@@ -1,7 +1,14 @@
 chmod u+x *
 ./kubectl.sh
+echo "---"
 ./kind
+echo "---"
 ./clusterctl.sh
-./cluster
-
+echo "---"
+./clusterawsadm.sh
+clear
+echo "---"
+echo "Kubectl, Kind, Clusterctl, Clusterawsadm Installed"
+echo "---"
 kind create cluster
+echo "Cluster is Created..."
