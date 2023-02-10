@@ -1,7 +1,7 @@
 chmod u+x *
 ./kubectl.sh
 echo "---"
-./kind
+./kind.sh
 echo "---"
 ./clusterctl.sh
 echo "---"
